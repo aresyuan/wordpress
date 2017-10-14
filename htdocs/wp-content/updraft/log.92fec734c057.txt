@@ -1,0 +1,287 @@
+0000.000 (0) Opened log file at time: Tue, 10 Oct 2017 07:52:58 +0000 on http://13.229.78.137
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.11 WP: 4.8.2 PHP: 7.0.18 (fpm-fcgi, Linux ip-172-31-23-237 3.13.0-119-generic #166-Ubuntu SMP Wed May 3 12:18:55 UTC 2017 x86_64) MySQL: 5.7.18 WPLANG: zh_TW Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 8.1M | 2M) multisite: N openssl: OpenSSL 1.0.2l  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 6776.2 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.011 (0) Semaphore (fd, wp_options) being initialised
+0000.017 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.028 (0) Set semaphore last lock (fd) time to 2017-10-10 07:52:58
+0000.030 (0) Semaphore lock (fd) complete
+0000.035 (0) Backup run: resumption=0, nonce=92fec734c057, begun at=1507621978 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1507622278) in case this run gets aborted
+0000.052 (0) Checking if we have a zip executable available
+0000.055 (0) Testing: /usr/bin/zip
+0000.059 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.062 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.064 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.067 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.068 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.072 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.075 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.077 (0) Working binary zip found: /usr/bin/zip
+0000.081 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.084 (0) Creation of backups of directories: beginning
+0000.089 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.424 (0) Total entities for the zip file: 877 directories, 5065 files (0 skipped as non-modified), 55.6 MB
+0000.432 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.436 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.439 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.442 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.446 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.450 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 5065 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.783 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 0.70 MB
+0000.788 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 600 files added (on-disk size: 700 KB)
+0000.793 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 700 files added (on-disk size: 700 KB)
+0000.797 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 800 files added (on-disk size: 700 KB)
+0000.801 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 900 files added (on-disk size: 700 KB)
+0000.804 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1000 files added (on-disk size: 700 KB)
+0000.807 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 5065 files batched, 501 (1002) added so far); re-opening (prior size: 700 KB)
+0001.215 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 1.80 MB
+0001.222 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1100 files added (on-disk size: 1853.9 KB)
+0001.228 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1200 files added (on-disk size: 1853.9 KB)
+0001.232 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1300 files added (on-disk size: 1853.9 KB)
+0001.234 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1400 files added (on-disk size: 1853.9 KB)
+0001.238 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1500 files added (on-disk size: 1853.9 KB)
+0001.244 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 5065 files batched, 501 (1503) added so far); re-opening (prior size: 1853.9 KB)
+0001.625 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 2.70 MB
+0001.632 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1600 files added (on-disk size: 2808.6 KB)
+0001.636 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1700 files added (on-disk size: 2808.6 KB)
+0001.640 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1800 files added (on-disk size: 2808.6 KB)
+0001.643 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 1900 files added (on-disk size: 2808.6 KB)
+0001.647 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2000 files added (on-disk size: 2808.6 KB)
+0001.649 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 5065 files batched, 501 (2004) added so far); re-opening (prior size: 2808.6 KB)
+0002.036 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 4.50 MB
+0002.044 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2100 files added (on-disk size: 4571.5 KB)
+0002.046 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2200 files added (on-disk size: 4571.5 KB)
+0002.052 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2300 files added (on-disk size: 4571.5 KB)
+0002.055 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2400 files added (on-disk size: 4571.5 KB)
+0002.059 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2500 files added (on-disk size: 4571.5 KB)
+0002.061 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 5065 files batched, 501 (2505) added so far); re-opening (prior size: 4571.5 KB)
+0002.476 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 6.40 MB
+0002.485 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2600 files added (on-disk size: 6507.8 KB)
+0002.489 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2700 files added (on-disk size: 6507.8 KB)
+0002.494 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2800 files added (on-disk size: 6507.8 KB)
+0002.497 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 2900 files added (on-disk size: 6507.8 KB)
+0002.500 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3000 files added (on-disk size: 6507.8 KB)
+0002.503 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 5065 files batched, 501 (3006) added so far); re-opening (prior size: 6507.8 KB)
+0003.177 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 8.80 MB
+0003.185 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3100 files added (on-disk size: 9043.7 KB)
+0003.188 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3200 files added (on-disk size: 9043.7 KB)
+0003.192 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3300 files added (on-disk size: 9043.7 KB)
+0003.196 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3400 files added (on-disk size: 9043.7 KB)
+0003.199 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3500 files added (on-disk size: 9043.7 KB)
+0003.202 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 5065 files batched, 501 (3507) added so far); re-opening (prior size: 9043.7 KB)
+0003.773 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 11.60 MB
+0003.781 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3600 files added (on-disk size: 11928.6 KB)
+0003.785 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3700 files added (on-disk size: 11928.6 KB)
+0003.789 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3800 files added (on-disk size: 11928.6 KB)
+0003.795 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 3900 files added (on-disk size: 11928.6 KB)
+0003.799 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4000 files added (on-disk size: 11928.6 KB)
+0003.801 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 5065 files batched, 501 (4008) added so far); re-opening (prior size: 11928.6 KB)
+0004.006 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4100 files added (on-disk size: 13347 KB)
+0004.010 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4200 files added (on-disk size: 13347 KB)
+0004.013 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4300 files added (on-disk size: 13347 KB)
+0004.017 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4400 files added (on-disk size: 13347 KB)
+0004.020 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4500 files added (on-disk size: 13347 KB)
+0004.025 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 5065 files batched, 501 (4509) added so far); re-opening (prior size: 13347 KB)
+0004.178 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4600 files added (on-disk size: 14181.3 KB)
+0004.181 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4700 files added (on-disk size: 14181.3 KB)
+0004.185 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4800 files added (on-disk size: 14181.3 KB)
+0004.188 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 4900 files added (on-disk size: 14181.3 KB)
+0004.192 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: 5000 files added (on-disk size: 14181.3 KB)
+0004.193 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17 MB, 5065 files batched, 501 (5010) added so far); re-opening (prior size: 14181.3 KB)
+0004.990 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip.tmp: size is now: 19.00 MB
+0005.364 (0) Created plugins zip (0) - 19877.9 KB in 5.3 s (3770.4 KB/s) (sha1: 8b47314680763556974a8cb14c8a21d59f7f2c2d, sha256: 19202a4f329675d73787fae55b41e75e75c087365717d6a6dbe434fd73a948da)
+0005.369 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.467 (0) Total entities for the zip file: 178 directories, 1008 files (0 skipped as non-modified), 17.5 MB
+0005.472 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.476 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.478 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.481 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.484 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.487 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 1008 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.943 (0) backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: size is now: 5.10 MB
+0005.952 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 600 files added (on-disk size: 5187.6 KB)
+0005.954 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 700 files added (on-disk size: 5187.6 KB)
+0005.957 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 800 files added (on-disk size: 5187.6 KB)
+0005.960 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 900 files added (on-disk size: 5187.6 KB)
+0005.964 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: 1000 files added (on-disk size: 5187.6 KB)
+0005.968 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 1008 files batched, 501 (1002) added so far); re-opening (prior size: 5187.6 KB)
+0006.713 (0) backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip.tmp: size is now: 8.80 MB
+0006.868 (0) Created themes zip (0) - 9622.1 KB in 1.5 s (6429.9 KB/s) (sha1: 90db4fca7994f1b84c20e62247bab2895fce34c5, sha256: 52f3dd9e39d2327e335e6b762921855504ff7fb7b01c059e13f8bfec57d92e39)
+0006.872 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.875 (0) Looking for candidates to back up in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0006.876 (0) finding files: 2017: adding to list (1)
+0006.879 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.882 (0) Total entities for the zip file: 3 directories, 50 files (0 skipped as non-modified), 5.9 MB
+0006.970 (0) backup_2017-10-10-1552_PPAV_92fec734c057-uploads.zip.tmp: size is now: 5.90 MB
+0007.054 (0) Created uploads zip (0) - 6061.7 KB in 0.2 s (34706.2 KB/s) (sha1: 02616c6a2570d512c6e4006af69df3147d75796a, sha256: 43f0d033bcf71bca60fe11d9b9cc86526fe90603fa1415ed8ff388bb892f0743)
+0007.060 (0) Beginning backup of other directories found in the content directory (index: 0)
+0007.061 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0007.063 (0) Looking for candidates to back up in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0007.064 (0) finding files: index.php: adding to list (1)
+0007.067 (0) finding files: updraft: skipping: this is the updraft directory
+0007.068 (0) finding files: upgrade: skipping: excluded by options
+0007.069 (0) finding files: languages: adding to list (2)
+0007.074 (0) finding files: themes: skipping: this is the themes directory
+0007.077 (0) finding files: uploads: skipping: this is the uploads directory
+0007.080 (0) finding files: plugins: skipping: this is the plugins directory
+0007.085 (0) Total entities for the zip file: 3 directories, 252 files (0 skipped as non-modified), 25.8 MB
+0007.089 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.092 (0) Zip: backup_2017-10-10-1552_PPAV_92fec734c057-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.095 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 252 files batched, 245 (245) added so far); re-opening (prior size: 0 KB)
+0008.627 (0) backup_2017-10-10-1552_PPAV_92fec734c057-others.zip.tmp: size is now: 7.30 MB
+0008.633 (0) A useful amount of data was added after this amount of zip processing: 2.3 s (normalised: 2.3 s, rate: 11217.2 KB/s)
+0008.637 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.2836010456085, normalised_time=2.2822096624441, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=68918470)
+0008.797 (0) Created others zip (0) - 7653.9 KB in 1.7 s (4460.6 KB/s) (sha1: c994a908d2da4f58097cdf82d0864a8c5fc19a10, sha256: 049ca96f906d313f3f7a301e458a5a01daedc74423892ab863eff7c010d283b4)
+0008.807 (0) Saving backup status to database (elements: 8)
+0008.809 (0) Beginning creation of database dump (WordPress DB)
+0008.836 (0) Table wp_options: Total expected rows (approximate): 233
+0008.962 (0) Table wp_options: Total rows added: 234 in 0.12 seconds
+0008.966 (0) Table wp_options: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_options.table.gz - 183.4 KB)
+0008.977 (0) Table wp_users: Total expected rows (approximate): 0
+0008.980 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0008.983 (0) Table wp_users: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_users.table.gz - 0.5 KB)
+0008.988 (0) Table wp_usermeta: Total expected rows (approximate): 27
+0008.992 (0) Table wp_usermeta: Total rows added: 27 in 0.00 seconds
+0008.993 (0) Table wp_usermeta: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_usermeta.table.gz - 1.3 KB)
+0009.000 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0009.002 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.005 (0) Table wp_commentmeta: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0009.011 (0) Table wp_comments: Total expected rows (approximate): 0
+0009.014 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0009.019 (0) Table wp_comments: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_comments.table.gz - 0.7 KB)
+0009.042 (0) Table wp_links: Total expected rows (approximate): 0
+0009.045 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0009.047 (0) Table wp_links: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_links.table.gz - 0.4 KB)
+0009.052 (0) Table wp_postmeta: Total expected rows (approximate): 207
+0009.058 (0) Table wp_postmeta: Total rows added: 207 in 0.00 seconds
+0009.061 (0) Table wp_postmeta: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_postmeta.table.gz - 5.2 KB)
+0009.068 (0) Table wp_posts: Total expected rows (approximate): 88
+0009.077 (0) Table wp_posts: Total rows added: 88 in 0.01 seconds
+0009.079 (0) Table wp_posts: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_posts.table.gz - 12.4 KB)
+0009.085 (0) Table wp_term_relationships: Total expected rows (approximate): 7
+0009.088 (0) Table wp_term_relationships: Total rows added: 7 in 0.00 seconds
+0009.091 (0) Table wp_term_relationships: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0009.096 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0009.099 (0) Table wp_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0009.101 (0) Table wp_term_taxonomy: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0009.107 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0009.110 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0009.112 (0) Table wp_termmeta: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_termmeta.table.gz - 0.4 KB)
+0009.122 (0) Table wp_terms: Total expected rows (approximate): 1
+0009.125 (0) Table wp_terms: Total rows added: 2 in 0.00 seconds
+0009.127 (0) Table wp_terms: finishing file (backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_terms.table.gz - 0.4 KB)
+0009.133 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_options.table.gz (1/12): adding to final database dump
+0009.216 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_users.table.gz (2/12): adding to final database dump
+0009.219 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0009.221 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0009.226 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0009.228 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_links.table.gz (6/12): adding to final database dump
+0009.231 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0009.234 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0009.243 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0009.245 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0009.248 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0009.249 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0009.251 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db.gz: finished writing out complete database file (192 KB)
+0009.264 (0) Total database tables backed up: 12 (backup_2017-10-10-1552_PPAV_92fec734c057-db.gz, size: 208033, sha256)
+0009.273 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.275 (0) backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.276 (0) backup_2017-10-10-1552_PPAV_92fec734c057-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.279 (0) backup_2017-10-10-1552_PPAV_92fec734c057-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.282 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.286 (0) Saving backup history. Total backup size: 42.4 MB
+0009.291 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.296 (0) Cloud backup selection (1/1): googledrive (last)
+0009.297 (0) Beginning dispatch of backup to remote (googledrive)
+0010.308 (0) Google Drive quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0010.314 (0) backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B4doYsEypIMNLXUzUXNnMmY1ZlE)
+0010.925 (0) Googledrive chunked upload: 5.2 % uploaded (1048576)
+0011.055 (0) Googledrive chunked upload: 10.3 % uploaded (2097152)
+0011.193 (0) Googledrive chunked upload: 15.5 % uploaded (3145728)
+0011.340 (0) Googledrive chunked upload: 20.6 % uploaded (4194304)
+0011.481 (0) Googledrive chunked upload: 25.8 % uploaded (5242880)
+0011.632 (0) Googledrive chunked upload: 30.9 % uploaded (6291456)
+0011.797 (0) Googledrive chunked upload: 36.1 % uploaded (7340032)
+0011.957 (0) Googledrive chunked upload: 41.2 % uploaded (8388608)
+0012.137 (0) Googledrive chunked upload: 46.4 % uploaded (9437184)
+0012.298 (0) Googledrive chunked upload: 51.5 % uploaded (10485760)
+0012.452 (0) Googledrive chunked upload: 56.7 % uploaded (11534336)
+0012.616 (0) Googledrive chunked upload: 61.8 % uploaded (12582912)
+0012.761 (0) Googledrive chunked upload: 67 % uploaded (13631488)
+0012.937 (0) Googledrive chunked upload: 72.1 % uploaded (14680064)
+0013.088 (0) Googledrive chunked upload: 77.3 % uploaded (15728640)
+0013.251 (0) Googledrive chunked upload: 82.4 % uploaded (16777216)
+0013.419 (0) Googledrive chunked upload: 87.6 % uploaded (17825792)
+0013.579 (0) Googledrive chunked upload: 92.7 % uploaded (18874368)
+0013.731 (0) Googledrive chunked upload: 97.9 % uploaded (19922944)
+0014.978 (0) Googledrive chunked upload: 100 % uploaded (19922944)
+0014.985 (0) OK: Archive backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip uploaded to Google Drive in 4.67 seconds
+0014.988 (0) Recording as successfully uploaded: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip (b077f60e392cb8b3a6a0761bdfc4801c)
+0014.999 (0) Deleting local file: backup_2017-10-10-1552_PPAV_92fec734c057-plugins.zip: OK
+0015.310 (0) Google Drive quota usage: used=19.4 MB, total=15360 MB, available=15340.6 MB
+0015.313 (0) backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip: Attempting to upload to Google Drive (into folder id: 0B4doYsEypIMNLXUzUXNnMmY1ZlE)
+0016.004 (0) Googledrive chunked upload: 10.6 % uploaded (1048576)
+0016.153 (0) Googledrive chunked upload: 21.3 % uploaded (2097152)
+0016.298 (0) Googledrive chunked upload: 31.9 % uploaded (3145728)
+0016.474 (0) Googledrive chunked upload: 42.6 % uploaded (4194304)
+0016.616 (0) Googledrive chunked upload: 53.2 % uploaded (5242880)
+0016.764 (0) Googledrive chunked upload: 63.9 % uploaded (6291456)
+0016.909 (0) Googledrive chunked upload: 74.5 % uploaded (7340032)
+0017.061 (0) Googledrive chunked upload: 85.1 % uploaded (8388608)
+0017.225 (0) Googledrive chunked upload: 95.8 % uploaded (9437184)
+0018.450 (0) Googledrive chunked upload: 100 % uploaded (9437184)
+0018.456 (0) OK: Archive backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip uploaded to Google Drive in 3.14 seconds
+0018.460 (0) Recording as successfully uploaded: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip (b6b8079144c3299724876223916344af)
+0018.466 (0) Deleting local file: backup_2017-10-10-1552_PPAV_92fec734c057-themes.zip: OK
+0018.828 (0) Google Drive quota usage: used=28.8 MB, total=15360 MB, available=15331.2 MB
+0018.831 (0) backup_2017-10-10-1552_PPAV_92fec734c057-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B4doYsEypIMNLXUzUXNnMmY1ZlE)
+0019.469 (0) Googledrive chunked upload: 16.9 % uploaded (1048576)
+0019.612 (0) Googledrive chunked upload: 33.8 % uploaded (2097152)
+0019.788 (0) Googledrive chunked upload: 50.7 % uploaded (3145728)
+0019.937 (0) Googledrive chunked upload: 67.6 % uploaded (4194304)
+0020.080 (0) Googledrive chunked upload: 84.5 % uploaded (5242880)
+0021.127 (0) Googledrive chunked upload: 100 % uploaded (5242880)
+0021.133 (0) OK: Archive backup_2017-10-10-1552_PPAV_92fec734c057-uploads.zip uploaded to Google Drive in 2.3 seconds
+0021.137 (0) Recording as successfully uploaded: backup_2017-10-10-1552_PPAV_92fec734c057-uploads.zip (86d1da07713422cbec5d106fa9d4a2aa)
+0021.144 (0) Deleting local file: backup_2017-10-10-1552_PPAV_92fec734c057-uploads.zip: OK
+0021.592 (0) Google Drive quota usage: used=34.7 MB, total=15360 MB, available=15325.3 MB
+0021.595 (0) backup_2017-10-10-1552_PPAV_92fec734c057-others.zip: Attempting to upload to Google Drive (into folder id: 0B4doYsEypIMNLXUzUXNnMmY1ZlE)
+0022.311 (0) Googledrive chunked upload: 13.4 % uploaded (1048576)
+0022.493 (0) Googledrive chunked upload: 26.8 % uploaded (2097152)
+0022.640 (0) Googledrive chunked upload: 40.1 % uploaded (3145728)
+0022.783 (0) Googledrive chunked upload: 53.5 % uploaded (4194304)
+0022.953 (0) Googledrive chunked upload: 66.9 % uploaded (5242880)
+0023.093 (0) Googledrive chunked upload: 80.3 % uploaded (6291456)
+0023.241 (0) Googledrive chunked upload: 93.7 % uploaded (7340032)
+0024.372 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0024.379 (0) OK: Archive backup_2017-10-10-1552_PPAV_92fec734c057-others.zip uploaded to Google Drive in 2.78 seconds
+0024.383 (0) Recording as successfully uploaded: backup_2017-10-10-1552_PPAV_92fec734c057-others.zip (4a93d92bed0bb52243eac5ade268c0bb)
+0024.389 (0) Deleting local file: backup_2017-10-10-1552_PPAV_92fec734c057-others.zip: OK
+0024.710 (0) Google Drive quota usage: used=42.2 MB, total=15360 MB, available=15317.8 MB
+0024.713 (0) backup_2017-10-10-1552_PPAV_92fec734c057-db.gz: Attempting to upload to Google Drive (into folder id: 0B4doYsEypIMNLXUzUXNnMmY1ZlE)
+0026.527 (0) Googledrive chunked upload: 100 % uploaded
+0026.532 (0) OK: Archive backup_2017-10-10-1552_PPAV_92fec734c057-db.gz uploaded to Google Drive in 1.82 seconds
+0026.536 (0) Recording as successfully uploaded: backup_2017-10-10-1552_PPAV_92fec734c057-db.gz (1827567d5dedefee431a608e4fc486ff)
+0026.541 (0) Deleting local file: backup_2017-10-10-1552_PPAV_92fec734c057-db.gz: OK
+0026.547 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0026.549 (0) Number of backup sets in history: 1; groups (db): 1
+0026.551 (0) Examining (for databases) backup set with group_id=0, nonce=92fec734c057, datestamp=1507621978 (Oct 10 2017 07:52:58)
+0026.552 (0) This backup set is the backup set just made, so will not be deleted.
+0026.553 (0) Number of backup sets in history: 1; groups (files): 1
+0026.555 (0) Examining (for files) backup set with nonce=92fec734c057, datestamp=1507621978 (Oct 10 2017 07:52:58)
+0026.555 (0) This backup set is the backup set just made, so will not be deleted.
+0026.556 (0) This backup set is the backup set just made, so will not be deleted.
+0026.556 (0) This backup set is the backup set just made, so will not be deleted.
+0026.556 (0) This backup set is the backup set just made, so will not be deleted.
+0026.556 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0026.562 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0026.567 (0) Resume backup (92fec734c057, 0): finish run
+0026.571 (0) Decremented the semaphore (fd) by 1
+0026.574 (0) Semaphore (fd) unlocked
+0026.575 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0026.580 (0) The backup apparently succeeded and is now complete
+0026.583 (0) Fetching RSS news feed
+0026.743 (0) Fetched RSS news feed; result is a: SimplePie
+0026.754 (0) Sending email ('Files and database (完整備份)') report (attachments: 0, size: 0 KB) to: ppav2...
+0026.760 (0) 備份工作已完成
